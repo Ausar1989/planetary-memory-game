@@ -1,0 +1,12 @@
+.container {
+    background-image: url(../../images/SpaceStation.jpg);
+    background-attachment:fixed;
+    background-position:50%;
+    min-height:24rem
+  }
+  
+  @media (min-width: 576px) {
+      .container {
+        font-size: calc(10px + 14 * (100vw - 320px) / 800);
+      }
+    }
